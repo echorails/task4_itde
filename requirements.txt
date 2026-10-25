@@ -4,3 +4,6 @@ pyarrow
 matplotlib
 python-dateutil
 networkx
+streamlit
+plotly
+json
