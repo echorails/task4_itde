@@ -114,10 +114,10 @@ def ai_answer(question, store, history):
 
 
 def assistant_view():
-    st.subheader('🤖 AI Data Assistant · Part 2')
-    st.caption('Questions are answered using Python data tools, not invented statistics. Full personal information is not published.')
+    st.subheader(' AI Data Assistant -  Part 2')
+    st.caption('Part 2 Task 4 Data Engineering')
     store = st.selectbox('Ask about store', STORES, key='chat_store')
-    st.info('Try: How many real users are in STORE1? · How many books were sold in March 2025? · How many user records have email starting with s or p?')
+   
     key = f'chat_{store}'
     if key not in st.session_state:
         st.session_state[key] = []
